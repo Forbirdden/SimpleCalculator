@@ -1,10 +1,9 @@
-# HTML-Calculator
-## A Calculator made with HTML, CSS and JavaScript <br><br>
+# Simple Calculator
 
-Subscribe on my channel: https://www.youtube.com/channel/UCrx20bdxcCQhcmL3x0Rqrmw <br>
-Put like on the Calculator video: https://youtu.be/mA6ATICxdiM <br>
+### This is what you need
 
+Imagine your dream coming true, you get a calculator
 
-Try also the scientific calculator: https://github.com/OrangoMango/HTML-Scientific-Calculator <br><br>
-![Calculator](https://user-images.githubusercontent.com/61402409/79010798-f7a4b700-7b62-11ea-8fb0-7a54fae8b726.jpeg)
-<br>Program Output
+Now you can +. -, × and ÷!
+
+Simple Calculator is written in HTML, CSS and even JavaScript
