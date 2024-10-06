@@ -16,5 +16,5 @@ button {
 .main {
   position: absolute;
   border: solid 4px;
-  background: linear-gradient(green, red);
+  background: white;
 }
