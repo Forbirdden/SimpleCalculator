@@ -8,5 +8,5 @@ Now you can +. -, × and ÷!
 
 Simple Calculator is written in HTML, CSS and even JavaScript
 
-Also you can use Simple Calculator [online](https://forbirdden.github.io/SimpleCalculator/](https://github.com/Forbirdden/SimpleCalculator/tree/web)
+Also you can use Simple Calculator [online](https://github.com/Forbirdden/SimpleCalculator/tree/web)
 
