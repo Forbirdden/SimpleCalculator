@@ -2,16 +2,36 @@
   <head>
     <script type="text/javascript" src="calc_script.js">
     </script>
-    <link rel="stylesheet" href="calc_front.css">
+    <style>
+    h1 {
+      font-family: "Fira Sans", sans-serif;
+    }
+      
+    button {
+  width: 80;
+  height: 80;
+  border: solid;
+  font-size: 25;
+}
+
+.textinput {
+  width: 335;
+  height: 50;
+  font-size: 25;
+  color: #acb5af;
+  border: solid;
+}
+
+.main {
+  position: absolute;
+  border: solid 4px;
+  background: white;
+}
+     </style> 
   </head>
   <body>
     <div class=main>
       <h1> SimpleCalculator Web</h1>
-      <style>
-    h1 {
-      font-family: "Fira Sans", sans-serif;
-    }
-</style>
     <form name="form">
       <input name="textinput" class="textinput" />
     </form>
