@@ -1,4 +1,4 @@
-# Simple Calculator Desktop
+# Simple Calculator (Desktop Edition)
 
 ### This is what you need
 
