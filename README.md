@@ -1,4 +1,4 @@
-# Simple Calculator
+# Simple Calculator Desktop
 
 ### This is what you need
 
@@ -8,4 +8,5 @@ Now you can +. -, × and ÷!
 
 Simple Calculator is written in HTML, CSS and even JavaScript
 
-![2024-10-06_22-16-06-transformed](https://github.com/user-attachments/assets/f08f4beb-15f2-44d2-a67f-7b137b15b7e3)
+You can use Simple Calculator [online](https://forbirdden.github.io/SimpleCalculator/) or on [your PC]()
+
