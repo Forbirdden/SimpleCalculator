@@ -1,0 +1,10 @@
+name: Build & release app
+
+on:
+  push:
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - electron
+  workflow_dispatch:
