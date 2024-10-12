@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function insert(num){
+        document.form.textinput.value = document.form.textinput.value + num;
+      }
+      
+function clean() {
+        // clean input area
+        document.form.textinput.value = "";
+      }
+      
+function back() {
+        var text = document.form.textinput.value
+       // remove last character from string
+        document.form.textinput.value = text.substring(0,text.length-1)
+      }
+ 
+function calculate(){
+        // eval calculation
+        var text = document.form.textinput.value
+        document.form.textinput.value = eval(text)
+      }
+    </script>
+    <style>
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+    }
+      
+button {
+  width: 80;
+  height: 80;
+  font-size: 25;
+  background: gray;
+  color: white;
+}
+
+.textinput {
+  width: 335;
+  height: 50;
+  font-size: 25;
+  color: black;
+  background: #489C4B;
+  border: solid;
+}
+
+.main {
+  position: absolute;
+  border: solid 4px;
+  background: black;
+}
+     </style> 
+  </head>
+  <body>
+    <div class=main>
+      <h1> SimpleCalculator Web</h1>
+    <form name="form">
+      <input name="textinput" class="textinput" />
+    </form>
+    <table>
+    <tr>
+      <td><button onclick="clean()">Clear</button></td>
+      <td><button onclick="back()"><</button></td>
+      <td><button onclick="insert('*')">×</button></td>
+      <td><button onclick="insert('/')">÷</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="insert(1)">1</button></td>
+      <td><button onclick="insert(2)">2</button></td>
+      <td><button onclick="insert(3)">3</button></td>
+      <td><button onclick="insert('+')">+</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="insert(4)">4</button></td>
+      <td><button onclick="insert(5)">5</button></td>
+      <td><button onclick="insert(6)">6</button></td>
+      <td><button onclick="insert('-')">-</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="insert(7)">7</button></td>
+      <td><button onclick="insert(8)">8</button></td>
+      <td><button onclick="insert(9)">9</button></td>
+      <td rowspan=2><button style="height: 165" onclick="calculate()">=</button></td>
+    </tr>
+    <tr>
+      <td colspan=2><button style="width:164" onclick="insert(0)">0</button></td>
+      <td><button onclick="insert('.')">.</button></td>
+    </tr>
+    </table>
+    </div>
+  </body>
+</html>
