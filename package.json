@@ -2,7 +2,7 @@
   "name": "SimpleCalculator",
   "version": "1.0.0",
   "description": "Simplest calculator ever!",
-  "main": "main.js",
+  "main": "loader.js",
   "scripts": {
     "start": "electron ."
   },
